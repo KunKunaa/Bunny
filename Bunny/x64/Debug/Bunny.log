@@ -1,0 +1,67 @@
+﻿  main.cpp
+D:\Microsoft\lib\extension\Include\shader.h(56,34): warning C4101: “e”: 未引用的局部变量
+D:\Microsoft\source\repos\Bunny\Bunny\main.cpp(223,28): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\Microsoft\source\repos\Bunny\Bunny\main.cpp(170,16): warning C4101: “height”: 未引用的局部变量
+D:\Microsoft\source\repos\Bunny\Bunny\main.cpp(170,24): warning C4101: “nrChannels”: 未引用的局部变量
+D:\Microsoft\source\repos\Bunny\Bunny\main.cpp(170,9): warning C4101: “width”: 未引用的局部变量
+D:\Microsoft\source\repos\Bunny\Bunny\main.cpp(343,19): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\Microsoft\source\repos\Bunny\Bunny\main.cpp(355,31): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\Microsoft\source\repos\Bunny\Bunny\main.cpp(376,47): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+D:\Microsoft\source\repos\Bunny\Bunny\main.cpp(378,47): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+  ObjLoader.cpp
+  正在生成代码...
+main.obj : error LNK2019: 无法解析的外部符号 gladLoadGLLoader，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 glfwInit，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 glfwTerminate，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 glfwWindowHint，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 glfwCreateWindow，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 glfwDestroyWindow，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 glfwWindowShouldClose，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 glfwSetWindowShouldClose，函数 "void __cdecl processInput(struct GLFWwindow *)" (?processInput@@YAXPEAUGLFWwindow@@@Z) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 glfwSetFramebufferSizeCallback，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 glfwPollEvents，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 glfwSetInputMode，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 glfwGetKey，函数 "void __cdecl processInput(struct GLFWwindow *)" (?processInput@@YAXPEAUGLFWwindow@@@Z) 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 glfwSetKeyCallback，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 glfwSetCursorPosCallback，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 glfwSetScrollCallback，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 glfwGetTime，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 glfwMakeContextCurrent，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 glfwSwapBuffers，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 glfwGetProcAddress，函数 main 中引用了该符号
+main.obj : error LNK2001: 无法解析的外部符号 glad_glPolygonMode
+main.obj : error LNK2001: 无法解析的外部符号 glad_glTexParameteri
+main.obj : error LNK2001: 无法解析的外部符号 glad_glClear
+main.obj : error LNK2001: 无法解析的外部符号 glad_glClearColor
+main.obj : error LNK2001: 无法解析的外部符号 glad_glEnable
+main.obj : error LNK2001: 无法解析的外部符号 glad_glDepthFunc
+main.obj : error LNK2001: 无法解析的外部符号 glad_glViewport
+main.obj : error LNK2001: 无法解析的外部符号 glad_glDrawArrays
+main.obj : error LNK2001: 无法解析的外部符号 glad_glBindTexture
+main.obj : error LNK2001: 无法解析的外部符号 glad_glGenTextures
+main.obj : error LNK2001: 无法解析的外部符号 glad_glBindBuffer
+main.obj : error LNK2001: 无法解析的外部符号 glad_glGenBuffers
+main.obj : error LNK2001: 无法解析的外部符号 glad_glBufferData
+main.obj : error LNK2001: 无法解析的外部符号 glad_glAttachShader
+main.obj : error LNK2001: 无法解析的外部符号 glad_glCompileShader
+main.obj : error LNK2001: 无法解析的外部符号 glad_glCreateProgram
+main.obj : error LNK2001: 无法解析的外部符号 glad_glCreateShader
+main.obj : error LNK2001: 无法解析的外部符号 glad_glDeleteShader
+main.obj : error LNK2001: 无法解析的外部符号 glad_glEnableVertexAttribArray
+main.obj : error LNK2001: 无法解析的外部符号 glad_glGetProgramiv
+main.obj : error LNK2001: 无法解析的外部符号 glad_glGetProgramInfoLog
+main.obj : error LNK2001: 无法解析的外部符号 glad_glGetShaderiv
+main.obj : error LNK2001: 无法解析的外部符号 glad_glGetShaderInfoLog
+main.obj : error LNK2001: 无法解析的外部符号 glad_glGetUniformLocation
+main.obj : error LNK2001: 无法解析的外部符号 glad_glLinkProgram
+main.obj : error LNK2001: 无法解析的外部符号 glad_glShaderSource
+main.obj : error LNK2001: 无法解析的外部符号 glad_glUseProgram
+main.obj : error LNK2001: 无法解析的外部符号 glad_glUniform3f
+main.obj : error LNK2001: 无法解析的外部符号 glad_glUniform3fv
+main.obj : error LNK2001: 无法解析的外部符号 glad_glUniformMatrix4fv
+main.obj : error LNK2001: 无法解析的外部符号 glad_glVertexAttribPointer
+main.obj : error LNK2001: 无法解析的外部符号 glad_glBindVertexArray
+main.obj : error LNK2001: 无法解析的外部符号 glad_glGenVertexArrays
+D:\Microsoft\lib\extension\Libs\opengl32.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+D:\Microsoft\lib\extension\Libs\glfw3.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+D:\Microsoft\source\repos\Bunny\x64\Debug\Bunny.exe : fatal error LNK1120: 52 个无法解析的外部命令
